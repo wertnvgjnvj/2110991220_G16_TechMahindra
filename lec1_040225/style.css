@@ -21,6 +21,7 @@ body {
     height: 50px;
 }
 
+
 .nav-list {
     display: flex;
     list-style: none;
@@ -73,3 +74,4 @@ body {
     padding-top: 40px;
     padding-right: 40px;
 }
+
