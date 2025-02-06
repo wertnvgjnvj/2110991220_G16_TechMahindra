@@ -4,6 +4,7 @@
   body {
     margin: 0;
     font-family: 'Segoe UI';
+    background-repeat: repeat;
   }
   .nav {
     width: 100%;
@@ -84,6 +85,8 @@
    display:flex;
    background-color: #1a216e;
    height: 100%;
+  
+
 
   }
   .para{
