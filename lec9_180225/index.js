@@ -43,37 +43,6 @@
 //     }
 //     return output;
 // }
-// console.log(calculateDoubleData(data));
-// console.log(Half(data));
-// console.log(calculateAddTen(data));
-
-function double(insideData)
-{
-    var ans=insideData*2;
-    return ans;
-}
-
-function half(insideData)
-{
-    var ans=insideData/2;
-    return ans;
-}
-
-function AddTen(insideData)
-{
-    var ans=insideData+10;
-    return ans;
-}
-
-const calculateData = function (data,callback){
-    console.log("We are inside CalculateData");
-    var output=[];
-    for(let i=0;i<data.length;i++)
-    {
-        output.push(callback(data[i]));
-    }
-    return output;
-}
 
 // console.log(calculateData(data,double));
 // console.log(calculateData(data,half));
