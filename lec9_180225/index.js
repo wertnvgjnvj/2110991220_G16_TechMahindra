@@ -25,21 +25,52 @@
    
 // }
 
-// const Half = function (data){
-//     const output=[];
-//     for(let i=0;i<data.length;i++)
-//     {
-//         output.push(data[i]/2);
-//     }
-//     return output;
+// // const Half = function (data){
+// //     const output=[];
+// //     for(let i=0;i<data.length;i++)
+// //     {
+// //         output.push(data[i]/2);
+// //     }
+// //     return output;
+// // }
+
+
+// // const calculateAddTen = function (data){
+// //     const output=[];
+// //     for(let i=0;i<data.length;i++)
+// //     {
+// //         output.push(data[i]+10);
+// //     }
+// //     return output;
+// // }
+// // console.log(calculateDoubleData(data));
+// // console.log(Half(data));
+// // console.log(calculateAddTen(data));
+
+// function double(insideData)
+// {
+//     var ans=insideData*2;
+//     return ans;
 // }
 
+// function half(insideData)
+// {
+//     var ans=insideData/2;
+//     return ans;
+// }
 
-// const calculateAddTen = function (data){
-//     const output=[];
+// function AddTen(insideData)
+// {
+//     var ans=insideData+10;
+//     return ans;
+// }
+
+// const calculateData = function (data,callback){
+//     console.log("We are inside CalculateData");
+//     var output=[];
 //     for(let i=0;i<data.length;i++)
 //     {
-//         output.push(data[i]+10);
+//         output.push(callback(data[i]));
 //     }
 //     return output;
 // }
@@ -100,20 +131,20 @@
 
 // console.log(filterOdd(data));
 
-const users = [
-    { firstName: "Pratiyush", lastName: "Ray", age: 25 },
-    { firstName: "Piyush", lastName: "Saini", age: 22 },
-    { firstName: "Sahil", lastName: "Aggarwal", age: 20 },
-    { firstName: "Ayush", lastName: "Jawa", age: 28 },
-    { firstName: "Daksh", lastName: "Singh", age: 40 },
-  ];
+// const users = [
+//     { firstName: "Pratiyush", lastName: "Ray", age: 25 },
+//     { firstName: "Piyush", lastName: "Saini", age: 22 },
+//     { firstName: "Sahil", lastName: "Aggarwal", age: 20 },
+//     { firstName: "Ayush", lastName: "Jawa", age: 28 },
+//     { firstName: "Daksh", lastName: "Singh", age: 40 },
+//   ];
   
-  // Combine first and last name
-  const FullName = users.map((user) => user.firstName + " " + user.lastName);
-  console.log(FullName); // Output: ["Pratiyush Ray", "Piyush Saini", "Sahil Aggarwal", "Ayush Jawa", "Daksh Singh"]
+//   // Combine first and last name
+//   const FullName = users.map((user) => user.firstName + " " + user.lastName);
+//   console.log(FullName); // Output: ["Pratiyush Ray", "Piyush Saini", "Sahil Aggarwal", "Ayush Jawa", "Daksh Singh"]
   
-  // Filter out users above 24 and their full name
-  const above24 = users
-    .filter((user) => user.age > 24)
-    .map((user) => user.firstName + " " + user.lastName);
-  console.log(above24); // Output: ["Pratiyush Ray", "Ayush Jawa", "Daksh Singh"]
+//   // Filter out users above 24 and their full name
+//   const above24 = users
+//     .filter((user) => user.age > 24)
+//     .map((user) => user.firstName + " " + user.lastName);
+//   console.log(above24); // Output: ["Pratiyush Ray", "Ayush Jawa", "Daksh Singh"]
